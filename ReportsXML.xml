@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="128.027171">
+    <testcase classname="validation of Adactin hotel web application for order Id generation" name="validation of Login page with valid credential" time="53.58311">
+        <system-out>
+            <![CDATA[Given user Launch the adactin hotel web application.........................passed
+When user enter valid username and password.................................passed
+And click the login button..................................................passed
+Then verify user able to view the search hotel page.........................passed
+When Seclect valid Location,valid Hotel name,valid Room type................passed
+And click the search button.................................................passed
+Then verify user able to view the next hotel page...........................passed
+When click on rodio button and continue button..............................passed
+Then verify user able to view the Book A Hotel page.........................passed
+When Enter the Valid First Name,valid Last Name,valid Billing Address and vaid Credit card Number.passed
+And Select valid Credit card type,Valid Expiry date and valid CVV number....passed
+And click on the Book Now button............................................passed
+Then verify user able to view the Booking Confirmation page should be displayed.passed
+When print the order number.................................................passed
+Then order number should be printed.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="validation of Adactin hotel web application for order Id generation" name="validation of Login page with valid username and valid password" time="16.89992">
+        <system-out>
+            <![CDATA[Given user Launch the adactin hotel web application.........................passed
+When user enter valid "AravinthKrish" and valid "ABC@123"...................passed
+And click on login button...................................................passed
+Then user able to view the error message....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="validation of Adactin hotel web application for order Id generation" name="validation of Login page with valid username and valid password 2" time="15.825384">
+        <system-out>
+            <![CDATA[Given user Launch the adactin hotel web application.........................passed
+When user enter valid "AravinthKrish" and valid "ABC@124"...................passed
+And click on login button...................................................passed
+Then user able to view the error message....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="validation of Adactin hotel web application for order Id generation" name="validation of Login page with valid username and valid password 3" time="41.718757">
+        <system-out>
+            <![CDATA[Given user Launch the adactin hotel web application.........................passed
+When user enter valid "AravinthKrish" and valid "ABC@125"...................passed
+And click on login button...................................................passed
+Then user able to view the error message....................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

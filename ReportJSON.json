@@ -1,0 +1,447 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 37806722499,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user Launch the adactin hotel web application",
+            "match": {
+              "location": "StepDefinition.userLaunchTheAdactinHotelWebApplication()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-01T15:37:41.880Z",
+        "line": 5,
+        "name": "validation of Login page with valid credential",
+        "description": "",
+        "id": "validation-of-adactin-hotel-web-application-for-order-id-generation;validation-of-login-page-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1052158000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid username and password",
+            "match": {
+              "location": "StepDefinition.userEnterValidUsernameAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1669251900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click the login button",
+            "match": {
+              "location": "StepDefinition.clickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2763299,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify user able to view the search hotel page",
+            "match": {
+              "location": "StepDefinition.verifyUserAbleToViewTheSearchHotelPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 979126100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Seclect valid Location,valid Hotel name,valid Room type",
+            "match": {
+              "location": "StepDefinition.seclectValidLocationValidHotelNameValidRoomType()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1062911100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click the search button",
+            "match": {
+              "location": "StepDefinition.clickTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10367700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify user able to view the next hotel page",
+            "match": {
+              "location": "StepDefinition.verifyUserAbleToViewTheNextHotelPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1295636099,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on rodio button and continue button",
+            "match": {
+              "location": "StepDefinition.clickOnRodioButtonAndContinueButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2261599,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify user able to view the Book A Hotel page",
+            "match": {
+              "location": "StepDefinition.verifyUserAbleToViewTheBookAHotelPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1364632900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter the Valid First Name,valid Last Name,valid Billing Address and vaid Credit card Number",
+            "match": {
+              "location": "StepDefinition.enterTheValidFirstNameValidLastNameValidBillingAddressAndVaidCreditCardNumber()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1106851200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select valid Credit card type,Valid Expiry date and valid CVV number",
+            "match": {
+              "location": "StepDefinition.selectValidCreditCardTypeValidExpiryDateAndValidCVVNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186380699,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on the Book Now button",
+            "match": {
+              "location": "StepDefinition.clickOnTheBookNowButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5032600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify user able to view the Booking Confirmation page should be displayed",
+            "match": {
+              "location": "StepDefinition.verifyUserAbleToViewTheBookingConfirmationPageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6687802600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "print the order number",
+            "match": {
+              "location": "StepDefinition.printTheOrderNumber()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1127000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "order number should be printed",
+            "match": {
+              "location": "StepDefinition.orderNumberShouldBePrinted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14359811100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user Launch the adactin hotel web application",
+            "match": {
+              "location": "StepDefinition.userLaunchTheAdactinHotelWebApplication()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-01T15:38:35.564Z",
+        "line": 28,
+        "name": "validation of Login page with valid username and valid password",
+        "description": "",
+        "id": "validation-of-adactin-hotel-web-application-for-order-id-generation;validation-of-login-page-with-valid-username-and-valid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 910317600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enter valid \"AravinthKrish\" and valid \"ABC@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AravinthKrish\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"ABC@123\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefinition.userEnterValidAndValid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1586487301,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "click on login button",
+            "match": {
+              "location": "StepDefinition.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2455000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user able to view the error message",
+            "match": {
+              "location": "StepDefinition.userAbleToViewTheErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14372576400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user Launch the adactin hotel web application",
+            "match": {
+              "location": "StepDefinition.userLaunchTheAdactinHotelWebApplication()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-01T15:38:52.465Z",
+        "line": 29,
+        "name": "validation of Login page with valid username and valid password",
+        "description": "",
+        "id": "validation-of-adactin-hotel-web-application-for-order-id-generation;validation-of-login-page-with-valid-username-and-valid-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 873199100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enter valid \"AravinthKrish\" and valid \"ABC@124\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AravinthKrish\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"ABC@124\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefinition.userEnterValidAndValid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 572088900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "click on login button",
+            "match": {
+              "location": "StepDefinition.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1149201,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user able to view the error message",
+            "match": {
+              "location": "StepDefinition.userAbleToViewTheErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 39850514400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user Launch the adactin hotel web application",
+            "match": {
+              "location": "StepDefinition.userLaunchTheAdactinHotelWebApplication()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-01T15:39:08.291Z",
+        "line": 30,
+        "name": "validation of Login page with valid username and valid password",
+        "description": "",
+        "id": "validation-of-adactin-hotel-web-application-for-order-id-generation;validation-of-login-page-with-valid-username-and-valid-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 566289000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enter valid \"AravinthKrish\" and valid \"ABC@125\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AravinthKrish\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"ABC@125\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefinition.userEnterValidAndValid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1287607900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "click on login button",
+            "match": {
+              "location": "StepDefinition.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1220900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user able to view the error message",
+            "match": {
+              "location": "StepDefinition.userAbleToViewTheErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validation of Adactin hotel web application for order Id generation",
+    "description": "",
+    "id": "validation-of-adactin-hotel-web-application-for-order-id-generation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/adactinhotel.feature",
+    "tags": []
+  }
+]
